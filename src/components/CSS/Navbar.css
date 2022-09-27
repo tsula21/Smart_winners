@@ -1,0 +1,89 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar .lineLeft a:first-child {
+  text-decoration: underline;
+}
+
+.navbar .lineLeft {
+  background: #f30000;
+  border-radius: 8px;
+  height: 34px;
+  width: 1036px;
+  display: flex;
+}
+
+.navbar .lineLeft a {
+  padding: 0 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #fff;
+  height: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .lineLeft a:first-child {
+  border-radius: 8px;
+}
+
+.navbar .lineRight {
+  background: #0061a3;
+  border-radius: 8px;
+  height: 34px;
+  width: 178px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+/*  */
+.navbar .lineRight a {
+  padding: 0 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #fff;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.navbar .lineRight a:hover {
+  background-color: #1f278d;
+}
+
+.navbar .lineLeft a:hover {
+  transition: 0.2s;
+  background-color: #d50000;
+}
+
+.navbar .line {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+}

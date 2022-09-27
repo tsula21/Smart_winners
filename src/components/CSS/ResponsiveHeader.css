@@ -1,0 +1,64 @@
+.respoHeader {
+  display: none;
+  font-family: "Roboto";
+}
+
+@media (max-width: 1024px) {
+  .respoHeader {
+    display: block;
+    width: calc(100% - 36px);
+    margin: 0 auto 24px auto;
+  }
+
+  .respoHeader nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5.5px;
+  }
+
+  .respoHeader .respoTitle {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .respoHeader .respoTitle h2 {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .respoHeader .respoTitle h2 p {
+    margin: 0px 4px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 0px 4px;
+  }
+
+  .respoHeader .respoTitle h2 a {
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #0061a3;
+  }
+
+  .respoHeader .respoTitle h3 {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .respoHeader .respoTitle h3 p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+  }
+}

@@ -1,0 +1,103 @@
+.lottery {
+  width: calc(100% - 30px);
+  margin: 0 auto 74px auto;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lottery .space {
+  width: 32%;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  height: 150px;
+}
+
+.lottery .space .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.lottery .space .title .jackpot {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lottery .space .title .jackpot h2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.oz {
+  margin-top: 6px;
+}
+
+.lottery .space .title .jackpot h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 22px;
+  color: #13902a;
+}
+
+.blueContent {
+  background: #0061a3;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.blueContent button {
+  width: 171px;
+  height: 36px;
+  background: #f7d300;
+  border-radius: 8px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.blueContent h4 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.blueContent h4 img {
+  margin-right: 4px;
+}
+
+.lottery .space .title .jackpot h2 img {
+  margin-right: 7px;
+}

@@ -1,0 +1,208 @@
+.lotteryList {
+  font-family: "Roboto";
+  position: relative;
+  display: grid;
+  /* width: calc(100% - 8.3%); */
+  margin: 0 auto 114px auto;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 210px));
+  justify-content: center;
+  row-gap: 15px;
+  column-gap: 15px;
+}
+
+.lotteryList .space {
+  width: 208px;
+  height: 270px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.lotteryList .space .spaceContainer {
+  width: calc(100% - 26px);
+  margin: 13px auto 13px auto;
+}
+
+.lotteryList .space .spaceContainer .top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.lotteryList .space .spaceContainer .top img:nth-child(2) {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.lotteryList .space .spaceContainer .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lotteryList .space .spaceContainer .bottom .bottomTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.lotteryList .space .spaceContainer .bottom .bottomTitle img {
+  margin-right: 6px;
+}
+
+.lotteryList .space .spaceContainer .bottom .bottomTime {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.lotteryList .space .spaceContainer .bottom .bottomTime img {
+  margin-right: 4px;
+}
+
+.lotteryList .space .spaceContainer h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.lotteryList .space .spaceContainer h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.lotteryList .space .spaceContainer h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #0061a3;
+}
+
+.lotteryList .space .spaceContainer button {
+  width: 171px;
+  height: 36px;
+  background: #f7d300;
+  border-radius: 8px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+
+.lotteryList .moreDetails {
+  position: absolute;
+  bottom: -40px;
+  right: 3%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #0061a3;
+  cursor: pointer;
+}
+
+.moreDetails2 {
+  display: none;
+}
+
+@media (max-width: 1610px) {
+}
+
+@media (max-width: 1486px) {
+}
+
+@media (max-width: 1247px) {
+}
+
+@media (max-width: 1024px) {
+  .lotteryList {
+    /* width: 90%; */
+  }
+
+  .lotteryList .moreDetails {
+    right: 5%;
+  }
+}
+
+@media (max-width: 921px) {
+}
+
+@media (max-width: 740px) {
+  .lotteryList .space .spaceContainer button {
+    width: 139px;
+  }
+
+  .lotteryList .space .spaceContainer h2 {
+    font-size: 12px;
+  }
+
+  .lotteryList .space .spaceContainer h3 {
+    font-size: 18px;
+  }
+
+  .lotteryList .space .spaceContainer h4 {
+    font-size: 14px;
+  }
+  .lotteryList .space .spaceContainer .top img:first-child {
+    width: 80px;
+  }
+
+  .moreDetails {
+    display: none;
+  }
+  .moreDetails2 {
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #0061a3;
+    cursor: pointer;
+  }
+
+  .lottery .space {
+    width: 100% !important;
+  }
+
+  .lottery .space .title .oz {
+    width: 123px;
+    height: 77px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lotteryList {
+    grid-template-columns: repeat(auto-fit, minmax(137px, 155px));
+  }
+
+  .lotteryList .space {
+    width: 155px;
+  }
+
+  .sectionHeader1,
+  .inside,
+  .outside h2,
+  .sectionHeader2 {
+    font-size: 16px !important;
+  }
+}
